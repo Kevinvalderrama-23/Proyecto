@@ -86,9 +86,9 @@ INSERT INTO Roles (NombreRol) VALUES
 
 
 INSERT INTO Usuarios (Nombre, Apellido, Telefono, Correo, RH, EPS, IdRol) VALUES
-('Juan', 'Pérez', '3001234567', 'juan.perez@gmail.com', 'O+', 'Sura', 1),
-('Ana', 'Gómez', '3107654321', 'ana.gomez@gmail.com', 'A-', 'Colsanitas', 2),
-('Carlos', 'López', '3209876543', 'carlos.lopez@gmail.com', 'B+', 'Compensar', 3);
+('Juan', 'PÃ©rez', '3001234567', 'juan.perez@gmail.com', 'O+', 'Sura', 1),
+('Ana', 'GÃ³mez', '3107654321', 'ana.gomez@gmail.com', 'A-', 'Colsanitas', 2),
+('Carlos', 'LÃ³pez', '3209876543', 'carlos.lopez@gmail.com', 'B+', 'Compensar', 3);
 
 
 INSERT INTO Grados (NombreGrado) VALUES
@@ -100,11 +100,11 @@ INSERT INTO Grados (NombreGrado) VALUES
 INSERT INTO Horarios (Hora, Dia, Aula) VALUES
 ('08:00 AM', 'Lunes', 'Aula 101'),
 ('10:00 AM', 'Martes', 'Aula 202'),
-('02:00 PM', 'Miércoles', 'Aula 303');
+('02:00 PM', 'MiÃ©rcoles', 'Aula 303');
 
 
 INSERT INTO Estudiantes (IdEstudiante, IdUsuario, CodigoMatricula, IdGrado, DatosAcudiente) VALUES
-(1, 1, 'MAT-001', 1, 'Pedro Pérez');
+(1, 1, 'MAT-001', 1, 'Pedro PÃ©rez');
 
 
 INSERT INTO Docentes (IdDocente, IdUsuario, IdGrado) VALUES
